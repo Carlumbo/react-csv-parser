@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import { CSVReader } from "react-papaparse"; 
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 //import { writeFileSync, readFileSync } from 'fs';
 //import './test.js';
@@ -20,7 +20,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          
+          I'M ALWAYS WATCHING!
         </p>
         <a
           className="App-link"
@@ -28,10 +28,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        
         </a>
       </header>
     </div>
+    
   );
 }
 
